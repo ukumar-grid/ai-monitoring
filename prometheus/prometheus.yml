@@ -1,0 +1,11 @@
+global:
+  scrape_interval: 5s # Short scrape interval for fast feedback during local testing
+
+scrape_configs:
+  - job_name: "prometheus"
+    static_configs:
+      - targets: ["localhost:9090"]
+
+  - job_name: "mock-service"
+    static_configs:
+      - targets: ["mock-app:3000"]

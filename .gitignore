@@ -1,0 +1,17 @@
+# Environment variables file
+.env
+
+# Python virtual environment
+myenv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Generated local incident reports
+incident_report_*.md
+
+# OS & IDE files
+.DS_Store
+.vscode/
+.idea/
