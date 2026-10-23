@@ -12,9 +12,9 @@ CHECK_INTERVAL_SECONDS = 15
 # Email Settings
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 465  # Using SSL port for reliable connections
-SENDER_EMAIL = "surabhiuday81@gmail.com"
+SENDER_EMAIL = "your@gmail.com"
 SENDER_PASSWORD = "**** **** **** ****"  # Replace with 16-char App Password (no spaces)
-RECIPIENT_EMAIL = "surabhiuday81@gmail.com"
+RECIPIENT_EMAIL = "your@gmail.com"
 
 
 def send_email_alert(subject: str, report_markdown: str):
